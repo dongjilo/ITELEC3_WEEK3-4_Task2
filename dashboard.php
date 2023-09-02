@@ -34,39 +34,30 @@ if (empty($_SESSION['txtUsername'])){
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
         }
 
-        .anim {
-            transition: fadeIn 500ms ease-in;
-        }
-
-        @keyframes fadeIn {
-            from {
-                transform: translateY(100%);
-                opacity: 0;
-            }
-            to {
-                transform: translateY(0px);
-                opacity: 1;
-            }
-        }
-
-
     </style>
 </head>
 <body>
 
 <div class="container">
-    <div class="card anim">
+    <div class="card">
         <div class="card-header text-light bg-success rounded-top">
             <h2 class="h2">Dashboard</h2>
         </div>
 
-        <div class="card-body px-5">
+
+
+        <div class="card-body ">
+
             <div class="alert alert-success alert-dismissible fade show" role="alert">
                 <button class="btn-close" data-bs-dismiss="alert"></button>You have successfully logged in to your account.
             </div>
-            <h3 class="mb-4">Welcome to the dashboard.</h3>
-            <p class="mb-4">Hello, <strong><?php echo $_SESSION['txtUsername'] ?></strong>.</p>
-            <a href="operations/logout.php" class="btn btn-danger mb-4">Logout</a>
+
+            <h3 class="mb-4 px-4">Welcome to the dashboard.</h3>
+            <p class="mb-4 px-4">Hello, <strong><?php echo $_SESSION['txtUsername'] ?></strong>.</p>
+
+            <div class="container text-center">
+                <a href="operations/logout.php" class="btn btn-danger mb-4">Logout</a>
+            </div>
         </div>
     </div>
 </div>
