@@ -1,6 +1,5 @@
 
-kphp:S103"KSplit this 214 characters long line (which is greater than 120 authorized).(³ÿÄúÿÿÿÿ8Ìö®Ì¤1
-fphp:S103	"KSplit this 146 characters long line (which is greater than 120 authorized).(Õúç´8Ìö®Ì¤1
-kphp:S103"KSplit this 159 characters long line (which is greater than 120 authorized).(á¥÷õÿÿÿÿÿ8Ìö®Ì¤1
-kphp:S103"KSplit this 129 characters long line (which is greater than 120 authorized).(¶ø½óùÿÿÿÿ8Íö®Ì¤1
-?php:S125"Remove this commented out code.(êŸš‚úÿÿÿÿ8øŒÖÌ¤1
+kphp:S103"KSplit this 214 characters long line (which is greater than 120 authorized).(³ÿÄúÿÿÿÿ8 ®µ¥1
+fphp:S103	"KSplit this 146 characters long line (which is greater than 120 authorized).(Õúç´8¡®µ¥1
+kphp:S103!"KSplit this 124 characters long line (which is greater than 120 authorized).(Ş¸Òüÿÿÿÿ8®„Á¶¥1
+kphp:S103*"KSplit this 157 characters long line (which is greater than 120 authorized).(“ÁÎıÿÿÿÿ8¸ò±´¥1
